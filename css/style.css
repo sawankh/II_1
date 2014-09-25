@@ -1,0 +1,13 @@
+#contenedor{
+	text-align:center;
+}
+
+#pizarra { 
+	border:1px dotted;
+}
+
+#borrar_bt{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}

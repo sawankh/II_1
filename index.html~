@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<!-- HEADER -->
+<head>
+    <!-- Title -->
+    <title>Pizarra Digital</title>
+
+    <!-- Metas -->
+    <meta name="description" content="Pagina web para dibujar figuras geometricas en una pizarra digital"/>
+    <meta name="keywords" content="pizarra, figuras, dibujar"/>
+    <meta name="author" content="Sawan Jagdish Kapai Harpalani" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    
+    <!-- Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+   
+   <!-- Calling Jquery-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://www.esedeerre.com/js/modernizr-1.7.min.js"></script>
+    
+    <!-- Calling the blackboard script -->
+    
+    
+    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="script/pizarra.js" type="text/javascript"></script>
+    
+</head>
+
+<!-- BODY -->
+<body>
+<!-- Main content -->
+<div id="main">
+    <!-- header of the page (Banner) -->
+    <header>
+
+    </header>
+    
+    <!-- Main content of the site -->
+    <div id="site_content">
+        <div id="content">
+            <h1>Ultimas Noticias</h1>
+
+            <div id="contenedor">
+	      <div id="contenedor_pizarra">
+		<canvas id="pizarra" width="300px" height="200px"></canvas><br/>
+		<a href="javascript:borrar()" id="borrar_bt">Borrar Pizarra</a>
+	      </div>
+	    </div> 
+            
+            
+            
+            <h2>Browser Compatibility</h2>
+
+            <p>This template has been tested in the following browsers:</p>
+            <ul>
+                <li>Internet Explorer 8</li>
+                <li>Internet Explorer 7</li>
+                <li>FireFox 10</li>
+                <li>Google Chrome 17</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div id="piedepagina">
+        Pr&aacute;ctica: Pizarra Digital | Sawan J. Kapai Harpalani <a href="mailto:alu0100694765@ull.edu.es">alu0100694765@ull.edu.es</a> <br> 
+      </div>
+    </footer>
+</div>
+<script type="text/javascript">init();</script>
+</body>
+</html>
